@@ -17,7 +17,7 @@ import pytest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "server"))
 
 from frame import SceneFrame  # noqa: E402
-from scene import exposure_for_altitude  # noqa: E402
+from rendering import exposure_for_altitude  # noqa: E402
 
 DUBAI = SceneFrame(25.2048, 55.2708)
 LONDON = SceneFrame(51.5074, -0.1278)

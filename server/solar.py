@@ -258,9 +258,9 @@ def sun_vector(azimuth: float, altitude: float) -> tuple[float, float, float]:
     """
     Unit vector pointing **from the site toward the sun**, in scene axes.
 
-    Scene frame: +Y = true north, +X = east, +Z = up. A VRaySun placed at
-    ``origin + vector * distance`` and targeted at the origin then casts shadows
-    in the real-world direction.
+    Scene frame: +Y = true north, +X = east, +Z = up. A directional light aimed
+    from ``origin + vector * distance`` toward the origin casts shadows in the
+    real-world direction.
 
     Note this is the direction *to* the sun, not the direction light travels.
     """

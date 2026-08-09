@@ -1,0 +1,4 @@
+name "CityGen"
+version 1.0
+description "CityGen for 3ds Max 2027"
+drop "install.ms"
